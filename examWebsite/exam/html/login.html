@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="../css/login.css" />
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row min-vh-100">
+  
+   
+      <div class="col-lg-6 col-12 content-login d-flex flex-column justify-content-center align-items-center text-white text-center p-5">
+        <h2>Online Examination</h2>
+
+        <button onclick="window.location.replace('Register.html');" class="btn btn-light my-3 px-4 rounded-pill shadow-sm">
+          Sign Up
+        </button>
+        
+        <div class="image">
+          <img  src="../img/login.png" class="img-fluid w-75 " alt="image" />
+        </div>
+      </div>
+
+
+      <div class="col-lg-6 col-12 d-flex flex-column justify-content-center align-items-center p-5">
+        <form class="w-75 needs-validation" novalidate>
+          <h1 class="mb-4 text-center">Log in</h1>
+  
+          <div class="mb-3">
+            <input type="email" class="form-control rounded-pill px-4 py-2" id="exampleInputEmail1" placeholder="Enter your Email address" required />
+            <div class="invalid-feedback">Please enter a valid email address.</div>
+          </div>
+  
+          <div class="mb-3">
+            <input type="password" class="form-control rounded-pill px-4 py-2"  id="exampleInputPassword1" placeholder="Enter your Password" required minlength="6" />
+            <div class="invalid-feedback">Password must be at least 6 characters.</div>
+          </div>
+  
+          <div class="text-center">
+
+            <button class="buton-form btn-success px-5 py-2 rounded-pill shadow-sm" type="submit">LOGIN</button>
+          </div>
+        </form>
+      </div>
+  
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/login.js"></script>
+</body>
+</html>

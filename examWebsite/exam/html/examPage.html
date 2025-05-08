@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/examPage.css">
+</head>
+
+<body>
+    <div class="content">
+
+        <p id="para"></p>
+
+        <svg id="loader" class="hidden" width="100px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+            <circle fill="#0E6CFF" stroke="#0E6CFF" stroke-width="15" r="15" cx="40" cy="100">
+                <animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;"
+                    keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.4"></animate>
+            </circle>
+            <circle fill="#0E6CFF" stroke="#0E6CFF" stroke-width="15" r="15" cx="100" cy="100">
+                <animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;"
+                    keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.2"></animate>
+            </circle>
+            <circle fill="#0E6CFF" stroke="#0E6CFF" stroke-width="15" r="15" cx="160" cy="100">
+                <animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;"
+                    keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="0"></animate>
+            </circle>
+        </svg>
+
+
+        <div id="empty" class="hidden">
+            <img class="notfound" src="../img/No data-amico.png" alt="">
+
+        </div>
+
+
+        <div id="error" class="hidden">
+            <img class="error" src="../img/404 error with people holding the numbers-rafiki.png" alt="">
+
+        </div>
+    </div>
+    <div id="timer" class="exam-timer">05:00</div>
+
+    <div id="examUsers">
+    </div>
+    <button id="nextQuestion" class="hidden">Next Question</button>
+
+
+    <button id="prevQuestion" class="hidden">Previous Question</button>
+
+    <div id="examUsers"></div>
+
+
+    <div id="popup" class="popup hidden">
+        <div class="popup-content">
+          <p id="popup-message"></p>
+          <button onclick="closePopup()" id="btn">OK</button>
+        </div>
+      </div>
+      
+
+    <script src="../js/examPage.js" ></script>
+</body>
+
+</html>

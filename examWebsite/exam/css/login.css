@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  .container {
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+  }
+  
+  .content-login, .login-input {
+    flex: 1;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-input {
+    background-color: #f9f9f9;
+  }
+  
+
+  
+  .login-input input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #ddd;
+  }
+
+
+
+  
+ .content-login {
+    background-color:  #3a7bd5;
+    color: white;
+    border-bottom-right-radius: 60%;
+    text-align: center;
+
+}
+  .content-login h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+h1{
+padding-bottom: 20px;
+}
+ 
+  
+  .buton-form {
+    padding: 12px 24px;
+    background-color:  #3a7bd5;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+
+    text-align: center;
+}
+
+
+.buton-form:hover {
+    background-color:  #0097a7;;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.Sign-header{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.image{
+  width: 350px;
+}
+
+
+.btn{
+  padding: 12px 24px;
+  background-color: #00c7b1;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+.btn:hover {
+  background-color: white;
+  color:#00c7b1;;
+  transform: translateY(-3px);
+}
+
+
