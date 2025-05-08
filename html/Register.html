@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register</title>
+  <link rel="stylesheet" href="../css/login.css" />
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row min-vh-100">
+
+      <div class="col-lg-6 col-12 content-login d-flex flex-column justify-content-center align-items-center text-white text-center p-5">
+        <h2>Online Examination</h2>
+        <button class="btn btn-light my-3 px-4 rounded-pill shadow-sm" onclick="window.location.replace('login.html');">
+          Log In
+        </button>
+        <div class="image">
+          <img src="../img/Learning-amico.png" class="img-fluid w-75" alt="image" />
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-12 d-flex flex-column justify-content-center align-items-center p-5">
+        <form class="w-75 needs-validation" novalidate id="registerForm">
+            <h1 class="mb-4 text-center">Register</h1>
+          
+            <div class="mb-3">
+              <input type="text" id="firstName" class="form-control rounded-pill px-4 py-2" placeholder="First Name" required />
+              <span id="firstNameError" class="text-danger small"></span>
+            </div>
+          
+            <div class="mb-3">
+              <input type="text" id="lastName" class="form-control rounded-pill px-4 py-2" placeholder="Last Name" required />
+              <span id="lastNameError" class="text-danger small"></span>
+            </div>
+          
+            <div class="mb-3">
+              <input type="text" id="username" class="form-control rounded-pill px-4 py-2" placeholder="Username" required />
+              <span id="usernameError" class="text-danger small"></span>
+            </div>
+          
+            <div class="mb-3">
+              <input type="email" id="email" class="form-control rounded-pill px-4 py-2" placeholder="Email Address" required />
+              <span id="emailError" class="text-danger small"></span>
+            </div>
+          
+            <div class="mb-3">
+              <input type="password" id="password" class="form-control rounded-pill px-4 py-2" placeholder="Password" required minlength="6" />
+              <span id="passwordError" class="text-danger small"></span>
+            </div>
+          
+            <div class="mb-3">
+              <input type="password" id="confirmPassword" class="form-control rounded-pill px-4 py-2" placeholder="Confirm Password" required minlength="6" />
+              <span id="confirmPasswordError" class="text-danger small"></span>
+            </div>
+          
+            <div class="text-center">
+              <button class="buton-form btn-success px-5 py-2 rounded-pill shadow-sm" type="submit">REGISTER</button>
+            </div>
+          </form>
+          
+      </div>
+
+    </div>
+  </div>
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+ <script src="../js/register.js"></script>
+</body>
+</html>
