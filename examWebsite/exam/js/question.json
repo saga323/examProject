@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "question": "What is the purpose of the <meta> tag in HTML?",
+      "options": [
+        "To define the page structure",
+        "To insert an image",
+        "To provide metadata like encoding and description",
+        "To add a table"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "question": "What is the difference between <div> and <span> elements?",
+      "options": [
+        "div is inline and span is block-level",
+        "div is block-level and span is inline",
+        "Both are inline elements",
+        "There is no difference"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What does 'position: absolute' mean in CSS?",
+      "options": [
+        "The element is fixed relative to the page",
+        "The element stays in place on scroll",
+        "The element is positioned relative to the nearest positioned ancestor",
+        "It has no effect on the element"
+      ],
+      "correctAnswer":2
+    },
+    {
+      "id": 4,
+      "question": "Which CSS property is used to change text color?",
+      "options": [
+        "background-color",
+        "color",
+        "text-color",
+        "font-style"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is the main purpose of using Flexbox in CSS?",
+      "options": [
+        "To improve website performance",
+        "To set website colors",
+        "To create flexible and responsive layouts",
+        "To add transition effects"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "question": "What is the difference between id and class in HTML?",
+      "options": [
+        "id can be reused, class cannot",
+        "class can be used for multiple elements, id cannot",
+        "Both are only used in CSS",
+        "There is no real difference"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+  
