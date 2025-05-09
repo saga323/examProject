@@ -79,8 +79,6 @@ xhr.addEventListener("load", function () {
 
 xhr.send();
 
-//reload Question 
-
 function reloadQuestion(e) {
     for (let i = e.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
