@@ -134,7 +134,13 @@ if (isValid) {
 
     localStorage.setItem("userData", JSON.stringify(userData));
     form.reset();
+<<<<<<< HEAD
     window.location.replace("../examWebsite/exam/html1/login.html");
+=======
+    // window.location.replace("login.html");
+    // examWebsite\exam\html\login.html
+    window.location.replace("../examWebsite/exam/html/login.html");
+>>>>>>> bfcc5db89118478226fbdd4172911a3608640b84
   }
    
 });
