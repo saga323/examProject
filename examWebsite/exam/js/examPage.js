@@ -418,7 +418,7 @@ window.onload = function() {
 
         sessionStorage.removeItem("examFinished"); 
         
-        window.location.href = "../html/login.html";
+        window.location.href = "../html1/login.html";
     }
 };
 
