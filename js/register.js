@@ -135,7 +135,8 @@ if (isValid) {
     localStorage.setItem("userData", JSON.stringify(userData));
     form.reset();
     // window.location.replace("login.html");
-    window.location.replace("examWebsite/exam/html/login.html");
+    // examWebsite\exam\html\login.html
+    window.location.replace("../examWebsite/exam/html/login.html");
   }
    
 });
