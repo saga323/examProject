@@ -169,7 +169,7 @@ function showCurrentQuestion() {
     questionDiv.appendChild(mark);
 
 
-    setTimeout(function () {
+ 
         var markButton = document.getElementById("mark");
         if (markButton) {
             if (markedQuestions.includes(currentQuestionIndex)) {
@@ -178,7 +178,7 @@ function showCurrentQuestion() {
                 markButton.classList.remove('clicked');
             }
         }
-    }, 0);
+
 
 
     if (currentQuestionIndex === 0) {
