@@ -389,6 +389,10 @@ function showStudentResult() {
         restartBtn.addEventListener("click", function () {
             currentQuestionIndex = 0;
             markedQuestions = [];
+            //////// restart time //
+              timeLeft = 5 * 60; 
+              startTimer();
+              
             for (let i = 0; i < questions.length; i++) {
                 questions[i].userAnswer = null;
                 const radios = document.querySelectorAll(`input[name="question-${i}"]`);
